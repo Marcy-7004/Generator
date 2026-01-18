@@ -1,7 +1,5 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/index" }]
-}
-{
+  "version": 2,
   "builds": [
     {
       "src": "app.py",
@@ -11,7 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/api/index.py"
+      "dest": "app.py"
     }
   ]
 }
