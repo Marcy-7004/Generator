@@ -1,7 +1,7 @@
 import streamlit as st
 import stripe
 
-# part1 = "sk_test_51Sq8StQmrQYBzVf1g01x"
+part1 = "sk_test_51Sq8StQmrQYBzVf1g01x"
 part2 = "0E0eyAnLbm6iI7kZHJZCJ0v3mp7URV0qs4gDGm1QJqHoSetSFrPxw9J104opI6N71ecr00v9VCsUCD"
 stripe.api_key = part1 + part2
 
