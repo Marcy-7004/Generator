@@ -10,7 +10,7 @@ st.sidebar.header("💳 Kredit vásárlás")
 if st.sidebar.button("10 Kredit vásárlása (3500 Ft)"):
     try:
         checkout_session = stripe.checkout.Session.create(
-            line_items=[{'price': 'price_1Sq92GQmrQYBzVf1zV296fR5', 'quantity': 1}],
+            line_items=[{'price': 'price_1SqB7FQmrQYBzVf167wAuYn2', 'quantity': 1}],
             mode='payment',
             success_url='https://share.streamlit.io/', 
             cancel_url='https://share.streamlit.io/',
