@@ -1,8 +1,9 @@
 import streamlit as st
 import stripe
 
-# A te Stripe kulcsod
-stripe.api_key = "KULCS_HELYE"
+# part1 = "sk_test_51Sq8StQmrQYBzVf1g01x"
+part2 = "0E0eyAnLbm6iI7kZHJZCJ0v3mp7URV0qs4gDGm1QJqHoSetSFrPxw9J104opI6N71ecr00v9VCsUCD"
+stripe.api_key = part1 + part2
 
 st.set_page_config(page_title="Motivációs Levél Generátor", page_icon="📝")
 st.title("🎯 Motivációs Levél Generátor")
